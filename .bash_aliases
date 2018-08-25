@@ -29,6 +29,7 @@ alias gstat='git status'
 alias wip="git commit -a -m 'wip' && git push"
 alias startservices='sudo su -c "service mysql start; service redis-server restart;"'
 alias logcat-native='adb logcat ReactNative:V ReactNativeJS:V AndroidRuntime:V *:S'
+alias glog='git log'
 
 addpath() {
     export PATH=$PATH:$*
